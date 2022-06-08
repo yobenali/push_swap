@@ -6,7 +6,7 @@
 /*   By: yobenali <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/14 19:44:52 by yobenali          #+#    #+#             */
-/*   Updated: 2022/06/01 21:40:55 by yobenali         ###   ########.fr       */
+/*   Updated: 2022/06/08 00:59:47 by yobenali         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,6 +105,5 @@ int	main(int argc, char **argv)
 		low_sort(&data);
 	if (*(data.count) == 2)
 		low_sort(&data);
-	system("leaks push_swap");
 	return (0);
 }
